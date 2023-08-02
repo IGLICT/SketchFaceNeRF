@@ -18,7 +18,7 @@ Realistic 3D facial generation based on Neural Radiance Fields (NeRFs) from 2D s
 
 ## Requirements
 
-* We have done all training, testing and development using V100 GPUs on the Linux platform.
+* We have done all training, testing and development using 3090Ti GPUs on the Linux platform.
 * CUDA toolkit 11.3 or later. (Why is a separate CUDA toolkit installation required?  We use the custom CUDA extensions from the StyleGAN3 repo. Please see [Troubleshooting](https://github.com/NVlabs/stylegan3/blob/main/docs/troubleshooting.md#why-is-cuda-toolkit-installation-necessary)).
 * Python libraries: see [environment.yml](./environment.yml) for exact library dependencies. You can use the following commands with Miniconda3 to create and activate your Python environment:
   - `conda env create -f environment.yml`
