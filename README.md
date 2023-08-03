@@ -28,7 +28,7 @@ Realistic 3D facial generation based on Neural Radiance Fields (NeRFs) from 2D s
 
 - Please download the pretrained models following the [link](https://drive.google.com/drive/folders/1db_gLfHXNyU5lM03JeSVzy4YPWwGK6La?usp=sharing) and put them under `./checkpoints`. 
 - Additionally, please:
-  - Go to the [link](https://nvlabs-fi-cdn.nvidia.com/stylegan2-ada-pytorch/pretrained/metrics/vgg16.pt) to download the` vgg16.pt` and put it under `./checkpoints`. 
+  - Go to the [link](https://nvlabs-fi-cdn.nvidia.com/stylegan2-ada-pytorch/pretrained/metrics/vgg16.pt) to download the `vgg16.pt` and put it under `./checkpoints`. 
   - Go to the [link](https://drive.google.com/file/d/154JgKpzCPW82qINcVieuPH3fZ2e0P812/view) to download `79999_iter.pth`, and put it under `./parsing_model/checkpoint/`.
   - Go to the [link](https://github.com/sicxu/Deep3DFaceRecon_pytorch/tree/master) to download its `BFM` directory, follow the `Prepare prerequisite models` section (we set 'model_name' as 'pretrained' ).
 
